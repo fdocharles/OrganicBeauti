@@ -19,7 +19,7 @@ struct User:Codable{
     let password:String
     let id: Int
     
-}
+}//rrtr
 
 class ViewController: UIViewController {
      //step1
