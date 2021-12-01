@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		750B35C027547BEA00AD5E7E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750B35BF27547BEA00AD5E7E /* AccountViewController.swift */; };
 		750D5C07275211F100D41AAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D5C06275211F100D41AAE /* AppDelegate.swift */; };
 		750D5C09275211F100D41AAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D5C08275211F100D41AAE /* SceneDelegate.swift */; };
 		750D5C0B275211F100D41AAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D5C0A275211F100D41AAE /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		750D5C11275211F100D41AAE /* OrganicBeauti.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 750D5C0F275211F100D41AAE /* OrganicBeauti.xcdatamodeld */; };
 		750D5C13275211F200D41AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750D5C12275211F200D41AAE /* Assets.xcassets */; };
 		750D5C16275211F200D41AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 750D5C14275211F200D41AAE /* LaunchScreen.storyboard */; };
+		75FDED082753D79A001F7F95 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FDED072753D79A001F7F95 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		750B35BF27547BEA00AD5E7E /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		750D5C03275211F100D41AAE /* OrganicBeauti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrganicBeauti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		750D5C06275211F100D41AAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		750D5C08275211F100D41AAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		750D5C12275211F200D41AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750D5C15275211F200D41AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		750D5C17275211F200D41AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75FDED072753D79A001F7F95 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +43,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		750B35BE27547B5A00AD5E7E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				750D5C0A275211F100D41AAE /* ViewController.swift */,
+				750B35BF27547BEA00AD5E7E /* AccountViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		750D5BFA275211F100D41AAE = {
 			isa = PBXGroup;
 			children = (
+				75FDED072753D79A001F7F95 /* Util.swift */,
 				750D5C05275211F100D41AAE /* OrganicBeauti */,
 				750D5C04275211F100D41AAE /* Products */,
 			);
@@ -60,8 +74,8 @@
 			children = (
 				750D5C06275211F100D41AAE /* AppDelegate.swift */,
 				750D5C08275211F100D41AAE /* SceneDelegate.swift */,
-				750D5C0A275211F100D41AAE /* ViewController.swift */,
 				750D5C0C275211F100D41AAE /* Main.storyboard */,
+				750B35BE27547B5A00AD5E7E /* ViewController */,
 				750D5C12275211F200D41AAE /* Assets.xcassets */,
 				750D5C14275211F200D41AAE /* LaunchScreen.storyboard */,
 				750D5C17275211F200D41AAE /* Info.plist */,
@@ -143,6 +157,8 @@
 			files = (
 				750D5C0B275211F100D41AAE /* ViewController.swift in Sources */,
 				750D5C07275211F100D41AAE /* AppDelegate.swift in Sources */,
+				750B35C027547BEA00AD5E7E /* AccountViewController.swift in Sources */,
+				75FDED082753D79A001F7F95 /* Util.swift in Sources */,
 				750D5C09275211F100D41AAE /* SceneDelegate.swift in Sources */,
 				750D5C11275211F100D41AAE /* OrganicBeauti.xcdatamodeld in Sources */,
 			);
